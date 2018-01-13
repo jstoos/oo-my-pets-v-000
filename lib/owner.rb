@@ -52,7 +52,7 @@ attr_reader :species
 
   def walk_dogs
     @pets[:dogs] do |dog|
-    dog.mood = "happy"
+      dog.mood = "happy"
     end
   end
 
