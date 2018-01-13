@@ -84,11 +84,7 @@ attr_reader :species
   end
 
   def list_pets
-    @pets.each do |pet_type|
-      @pets|pet-type|.each do |pet|
-        pet
-      end
-    end
+
   end
 
 end
