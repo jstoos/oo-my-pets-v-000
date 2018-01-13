@@ -39,5 +39,6 @@ attr_reader :species
     fish = Fish.new(fish_name)
     @pets[:fishes] = fish
     @pets[:fishes] = "mike"
+    binding.pry
   end
 end
