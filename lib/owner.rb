@@ -50,5 +50,5 @@ attr_reader :species
     @pets[:dogs] << dog
   end
 
-  
+
 end
