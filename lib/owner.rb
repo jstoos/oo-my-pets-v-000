@@ -88,6 +88,7 @@ attr_reader :species
       @pets|pet-type|.each do |pet|
         pet
       end
+    end
   end
 
 end
