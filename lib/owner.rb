@@ -72,12 +72,15 @@ attr_reader :species
     @pets[:dogs].each do |dog|
       dog.mood = "nervous"
     end
+    @pets[:dogs] = []
     @pets[:fishes].each do |fish|
       fish.mood = "nervous"
     end
+    @pets[:fishes] = []
     @pets[:cats].each do |cat|
       cat.mood = "nervous"
     end
+    @pets[:cats] = []
   end
 
 end
